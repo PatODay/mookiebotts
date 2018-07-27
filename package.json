@@ -1,0 +1,25 @@
+{
+  "name": "eslint",
+  "version": "1.0.0",
+  "description": "eslint",
+  "main": "app.js",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "detect-eslint-config": "^0.5.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatODay/mookiebotts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatODay/mookiebotts/issues"
+  },
+  "homepage": "https://github.com/PatODay/mookiebotts#readme"
+}
