@@ -1,4 +1,5 @@
 'use strict'
+require('dotenv').load();
 // Requiring twitter package
 const TwitterPackage = require('twitter');
 // Creating a JS object containing keys/tokens associated with this account
@@ -8,6 +9,8 @@ const keys = {
 	access_token_key: process.env.ACCESS_TOKEN_KEY,
 	access_token_secret: process.env.ACCESS_TOKEN_SECRET
 }
+
+// console.log(process.env);
 
 const Twitter = new TwitterPackage(keys);
 
