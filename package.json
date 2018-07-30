@@ -4,6 +4,7 @@
   "description": "eslint",
   "main": "app.js",
   "dependencies": {
+    "dotenv": "^6.0.0",
     "twitter": "^1.7.1"
   },
   "devDependencies": {
